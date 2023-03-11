@@ -19,7 +19,7 @@ public class Main {
 
         ReajusteService service = new ReajusteService(new ArrayList<>());
         service.reajustarSalarioDoFuncionario(alex, new BigDecimal("400"));
-     
+
         System.out.println(alex);
     }
 }

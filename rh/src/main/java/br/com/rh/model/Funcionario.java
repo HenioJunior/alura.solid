@@ -45,6 +45,10 @@ public class Funcionario {
         return dataUltimoReajuste;
     }
 
+    public void promover(Cargo novoCargo) {
+        this.cargo = novoCargo;
+    }
+
     @Override
     public String toString() {
         return "Funcionario{" +
